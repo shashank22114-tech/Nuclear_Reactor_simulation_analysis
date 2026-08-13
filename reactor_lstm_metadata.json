@@ -1,0 +1,24 @@
+{
+  "feature_cols": [
+    "power_n",
+    "avg_precursors",
+    "temp_fuel",
+    "temp_coolant",
+    "action_rod",
+    "action_flow"
+  ],
+  "target_col": "scram_status",
+  "seq_len": 50,
+  "step_size": 10,
+  "hidden_dim": 64,
+  "num_layers": 2,
+  "dropout": 0.3,
+  "batch_size": 256,
+  "epochs": 20,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "best_val_auc": 0.9999759756704201,
+  "final_val_auc": 0.9999759756704201,
+  "train_files": 48,
+  "validation_files": 12
+}

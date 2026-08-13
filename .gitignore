@@ -1,0 +1,12 @@
+# React / Node
+node_modules/
+dist/
+build/
+
+# Generated reactor dataset
+synthetic_reactor_dataset/
+synthetic_reactor_dataset.zip
+
+# OS files
+.DS_Store
+Thumbs.db
